@@ -1,0 +1,78 @@
+
+//Case1
+[
+    {
+        "productId": 1,
+        "productName": "book",
+        "amount": 12.49,
+        "isTaxApplicable":false,
+        "isImported":false
+    },
+    {
+        "productId": 2,
+        "productName": "music CD",
+        "amount": 14.99,
+        "isTaxApplicable":true,
+        "isImported":false
+
+    },
+    {
+        "productId": 3,
+        "productName": "chocolate bar",
+        "amount": 0.85,
+        "isTaxApplicable":false,
+        "isImported":false
+
+    }
+]
+
+//Case2
+
+[
+    {
+        "productId": 4,
+        "productName": "imported box of chocolates",
+        "amount": 10.00,
+        "isTaxApplicable": false,
+        "isImported": true
+    },
+    {
+        "productId": 5,
+        "productName": "imported bottle of perfume",
+        "amount": 47.50,
+        "isTaxApplicable": true,
+        "isImported": true
+    }
+]
+
+//case3
+[
+    {
+        "productId": 5,
+        "productName": "imported bottle of perfume",
+        "amount": 27.99,
+        "isTaxApplicable": true,
+        "isImported": true
+    },
+    {
+        "productId": 6,
+        "productName": "bottle of perfume",
+        "amount": 18.99,
+        "isTaxApplicable": true,
+        "isImported": false
+    },
+    {
+        "productId": 5,
+        "productName": "packet of headache pills",
+        "amount": 9.75,
+        "isTaxApplicable": false,
+        "isImported": false
+    },
+    {
+        "productId": 5,
+        "productName": "box of imported chocolates",
+        "amount": 11.25,
+        "isTaxApplicable": false,
+        "isImported": true
+    }
+]
